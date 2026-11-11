@@ -1,0 +1,315 @@
+<!doctype html>
+<html lang="en-SG">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>EZ Dental Care | Bedok North &amp; Geylang Bahru, Singapore</title>
+<meta name="description" content="Explore dental check-ups, cleaning and treatments at EZ Dental Care in Bedok North and Geylang Bahru. See clinic hours, contact details and published treatment rates.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@600;700&display=swap">
+<script type="application/ld+json">
+{
+  "@context":"https://schema.org",
+  "@type":"Organization",
+  "name":"EZ Dental Care",
+  "url":"https://www.ezdentalsg.com/",
+  "email":"ask@ezdentalsg.com",
+  "department":[
+    {"@type":"Dentist","name":"EZ Dental Care Bedok North","url":"https://www.ezdentalsg.com/ez-dental-care-bedok-north","telephone":"+6569045789","address":{"@type":"PostalAddress","streetAddress":"539 Bedok North Street 3, #01-623","postalCode":"460539","addressCountry":"SG"},"openingHours":["Mo-Sa 09:00-13:00","Mo-Sa 14:00-19:00"]},
+    {"@type":"Dentist","name":"EZ Dental Care Geylang Bahru","url":"https://www.ezdentalsg.com/ez-dental-care-geylang-bahru","telephone":"+6565310838","address":{"@type":"PostalAddress","streetAddress":"66 Kallang Bahru, #01-483","postalCode":"330066","addressCountry":"SG"},"openingHours":["Mo-Sa 09:00-13:00","Mo-Sa 14:00-19:00"]}
+  ]
+}
+</script>
+<style>
+:root{
+  --teal:#00757a;--teal-dark:#00595f;--logo-teal:#1b626c;--ink:#103a40;
+  --text:#263c40;--muted:#4b6165;--tint:#e7f3f3;--cool:#f2f8f8;
+  --warm:#fff8f3;--copper:#b3795b;--copper-tint:#f6e8df;
+  --line:#d6e4e4;--strong-line:#698589;--focus-light:#b5e5e6;
+}
+*,*::before,*::after{box-sizing:border-box}
+body{margin:0;background:white;color:var(--text);font:400 clamp(1rem,.95rem + .25vw,1.125rem)/1.6 "DM Sans",sans-serif}
+h1,h2,h3,p,figure{margin:0}
+h1,h2{font-family:"Playfair Display",Georgia,serif;font-weight:600;line-height:1.12;letter-spacing:-.028em;color:var(--ink)}
+h1{font-size:clamp(2.375rem,1.67rem + 3.25vw,4.5rem);max-width:13ch;text-wrap:balance}
+h2{font-size:clamp(1.875rem,1.42rem + 2vw,3.25rem)}
+h3{font-size:clamp(1.3125rem,1.16rem + .42vw,1.75rem);line-height:1.23;color:var(--ink)}
+a{color:var(--teal-dark);text-underline-offset:.23em}
+a:hover{text-decoration-thickness:.13em}
+a:focus-visible,summary:focus-visible{outline:3px solid var(--teal-dark);outline-offset:4px}
+img{display:block;max-width:100%;height:auto}
+.wrap{width:min(1160px,calc(100% - 64px));margin-inline:auto}
+.section{padding-block:clamp(3rem,6vw,5.25rem)}
+section[id]{scroll-margin-top:1rem}
+.skip{position:absolute;left:.6rem;top:.6rem;z-index:10;padding:.55rem .8rem;background:white;transform:translateY(-200%)}
+.skip:focus{transform:none}
+.button{display:inline-flex;align-items:center;justify-content:center;min-height:48px;padding:.58rem 1.05rem;border:1px solid var(--teal);border-radius:.45rem;background:var(--teal);color:white;font-size:1rem;font-weight:700;line-height:1.24;text-align:center;text-decoration:none}
+.button:hover{background:var(--teal-dark);border-color:var(--teal-dark)}
+.button.outline{background:white;border-color:var(--strong-line);color:var(--ink)}
+.button.outline:hover{background:var(--tint)}
+.actions{display:flex;align-items:center;flex-wrap:wrap;gap:.65rem}
+header{border-bottom:1px solid var(--line)}
+.header-inner{display:flex;justify-content:space-between;align-items:center;gap:1.25rem;min-height:82px;padding-block:.65rem}
+.brand{flex:none}
+.brand img{width:220px}
+nav{display:flex;align-items:center;gap:clamp(.8rem,2.4vw,2rem)}
+nav>a:not(.button){font-size:1rem;font-weight:700;text-decoration:none}
+nav>a:not(.button):hover{text-decoration:underline}
+.menu{display:none}
+.hero{padding-block:clamp(2.65rem,6.5vw,6.5rem);background:linear-gradient(108deg,var(--cool) 55%,var(--tint) 55%)}
+.hero-grid{display:grid;grid-template-columns:minmax(0,1.15fr) minmax(0,.85fr);align-items:center;gap:clamp(1.5rem,5vw,5rem)}
+.place{display:block;color:var(--logo-teal);font-size:1rem;font-weight:700;margin-bottom:1rem}
+.hero p{max-width:39ch;margin:1.1rem 0 1.35rem}
+.clinic-photo{width:min(100%,360px);justify-self:center;background:white;border:1px solid var(--line);border-radius:9rem 9rem 1rem 1rem;overflow:hidden;box-shadow:12px 12px 0 var(--copper-tint)}
+.clinic-photo img{width:100%;aspect-ratio:1.18;object-fit:cover;object-position:center 43%}
+.clinic-photo figcaption{padding:.75rem 1rem;text-align:center;font-size:.9375rem;color:var(--muted)}
+.intro{max-width:60ch;margin:.7rem 0 1.55rem}
+.branch-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:1rem}
+.branch{padding:clamp(1rem,2.5vw,1.7rem);background:var(--cool);border:1px solid var(--line);border-left:4px solid var(--teal);border-radius:.45rem}
+.branch:nth-child(2){border-left-color:var(--copper)}
+.branch address{font-style:normal;margin:.55rem 0 .9rem}
+.branch .number{font-size:1rem;font-weight:700}
+.branch .details-link{display:inline-block;margin-top:.65rem;font-size:1rem}
+.hours{margin-top:1rem;color:var(--muted);font-size:1rem}
+.care-section{background:var(--cool)}
+.care-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:0 clamp(.8rem,3vw,2.5rem)}
+.care{min-width:0;border-top:1px solid var(--strong-line);padding:1.1rem 0;display:flex;flex-direction:column;align-items:start;gap:.55rem}
+.care svg{width:44px;height:44px;flex:none;fill:none;stroke:var(--logo-teal);stroke-width:1.55;stroke-linecap:round;stroke-linejoin:round;background:white;border-radius:50%;padding:8px}
+.care p,.care a{font-size:1rem}
+.care a{font-weight:700;margin-top:auto}
+.fees{background:var(--warm);border-block:1px solid var(--copper-tint)}
+.fees-grid,.visit-grid{display:grid;grid-template-columns:minmax(0,1.1fr) minmax(0,.9fr);align-items:center;gap:1.5rem}
+.fees p,.visit-grid p{margin-top:.75rem}
+.fees .actions{justify-content:flex-end}
+.visit-grid{align-items:start;gap:clamp(1.4rem,5vw,4.5rem)}
+.visit-grid .actions{margin-top:1rem}
+.faq details{border-top:1px solid var(--line);padding:.8rem 0}
+.faq details:last-child{border-bottom:1px solid var(--line)}
+summary{cursor:pointer;font-weight:700;color:var(--ink)}
+.faq p{margin:.55rem 0 .2rem}
+footer{padding:1.55rem 0;background:var(--ink);color:white}
+footer .wrap{display:flex;justify-content:space-between;flex-wrap:wrap;gap:.8rem 1.5rem;font-size:1rem}
+footer a{color:white}
+footer a:focus-visible{outline-color:var(--focus-light)}
+.mobile-bar{display:none}
+@media(max-width:820px){
+  .desktop-nav{display:none}
+  .menu{display:block}
+  .menu summary{padding:.55rem .7rem;min-height:44px;border:1px solid var(--strong-line);border-radius:.45rem}
+  .menu nav{display:grid;margin-top:.65rem;gap:.5rem}
+  .menu nav a{padding:.2rem 0}
+}
+@media(max-width:700px){
+  .wrap{width:calc(100% - 20px)}
+  .header-inner{min-height:64px}
+  .brand img{width:172px}
+  .hero-grid,.branch-grid,.fees-grid,.visit-grid{grid-template-columns:minmax(0,1fr)}
+  .hero{background:var(--cool)}
+  .hero-grid{gap:1.6rem}
+  .clinic-photo{width:min(100% - 9px,360px);box-shadow:7px 7px 0 var(--copper-tint);border-radius:6rem 6rem .7rem .7rem}
+  .care-grid{grid-template-columns:repeat(2,minmax(0,1fr))}
+  .fees .actions{justify-content:flex-start}
+  .mobile-bar{position:fixed;inset:auto 0 0;z-index:5;display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:.5rem;padding:.55rem 10px calc(.55rem + env(safe-area-inset-bottom));background:white;border-top:1px solid var(--line)}
+  .mobile-bar .button{padding-inline:.25rem}
+  body{padding-bottom:calc(84px + env(safe-area-inset-bottom))}
+  html{scroll-padding-bottom:calc(84px + env(safe-area-inset-bottom))}
+}
+@media(prefers-reduced-motion:no-preference){
+  .button{transition:background-color .18s ease,border-color .18s ease}
+}
+</style>
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+
+<header>
+  <div class="wrap header-inner">
+    <a class="brand" href="#main"><img width="220" height="41" alt="EZ Dental Care" src="data:image/webp;base64,UklGRjwFAABXRUJQVlA4IDAFAAAwHgCdASrcACkAPyV+t1KuKKWirzWeKcAkiWIA0EzLh4W5X6dABzszxSezfobU0eIXfL8SU95y4rKb8FUlCzlc7/eaJk5ZXb7JbdMH1vVZ7BMyV+kWOEVyNuqTSOSN6+yYraGfJ29fcpCm2IRmIGFj34SLglhXbCYBplZ7irnWUto+lk3JC37PblGHuy984CzHLm89552mYy6v4JAj+ql5vRG99g3ySGRi5teoUNtulxHlLiOdbRp5JF+g8rF4HW9hP0gQLNtj5cEI0J0o+Tr6YZZbjVzebVWatOBlwP6Ozxv2jcqw6WdoRVTGw1solM/7FUgHOLr2mUKAAP7CvfPP7TSnLPVI4CEIHD4OZb7brGCkqX3bJ7v0hwNS2REFIZpufjiUcebOZZ4kXbrHhAIgD8gLBFbgXE1XJyqtp/YxMEG8Ac21eVIsDib3Rhqz6gbsooHSs/lJmwLbEE5ahJzkeQKiuYuZPhpXd/UsQ+XdMM/5cVDasIm0AfFekeUUx546Icb5Li1T469OnLxXmiCJIY1DrpAy/yX/TcTKEE1Tk2jBwDr5xx1sOyu400WMGqTTu36bZrq7/mv6tgsRHQDOPNlaOfyFIubse8NfWqV6xHCGh4FwY+orK7lxZfMohSH19Z2TeHOmQz6Ju1ezGmyqSp6PYT6xSo3MA6xzfTFDkPp4q6gBipOc27/8wdwVCaGEuv7aiDLjMaFEWbFdZu+QP4tRT00kSqFLeEILyGDgzmU51ezBkiJVHcAtUGXNix04G0zZHZ5hgqX+xSC+ku8U6EegEkfOBSE1cozZBlRXgAxr2MYFrNXrIKZfy5DgYTqy8pPn+CbDZ8oCDrIFQHVYqA8t+4MbYBObLxRb+Vur6jikTcZHZlDnxxnwloqHJqppDrPec4j+4f1dVEQ6RzXPeBGQ9q141MjLBACsgHE8orR2JGBJG/qOhQiozmMbuYODM3Wik6CQUc7YCX0PCeHZhT0x+fVKYlD15K0hP/dNZL7Lfx2eSiJYfVN/CPWTmSEgL+aJU8s/gXyxg9Xu4rG7jV6ZBD4wi7EGWJiHE1KNGc8gtA7HNKap7IJ9vqQnqDMgrpKDdWen5DgKUN3zF6Nfay/qhIzUpN2KcBpZzUYFfdCeEqgOU0XW2f2TWDjR3WHKHXFKQuj4/9N9PslgfQm5w6ugFpcVosA20b8nNyhIoSNvKtQJ286Un3Xqf92rawByPqluzDlGksk90PUz9v5lDhzqwridEFmUdiNzCKL9Ss4+9YrINP7x1vJedutmKtU6F7pK157HqUrA8tCVvQ5V7YFZmh1ob5yYvC0JjOxNcmiBmQW2ZB9yD+6fHU/CERd65/yqdAfmeNPTzfTtI25iaVsFn3J7BSZCnGQxUBvK6DS5Qt8qKo2iagOIkqeqqQFny00yvYIuHegb+kEkGs/imwTBeA4Noy/j1At7MaDAKiA6stXw9wZF9gez7Qh2FIOzad3zwnd0ejaadKwiP8UWMJasngUMaDr7ec5SBpZx6XiNHgAJYK7+zVVZvhKelXgzS91KHJBIAYUHOx5V91KfZ6sD+AinccptDpw2RYPpEbGHdGnr0s2EH8/BOIXOlHHvMxje0AEXX2GJFm1V3GVADJDAwTDkxwYHqX7fhqWniILiAH6Ik7Gi/txAUCS2JD97WXBkJGAQVAGpmum6fif72/rNYOjye6v2fYmUaCN21/2DJhfj+9Ak7ApFRAylJkT9hbHl3gKrcjKpQAAC8Bzalv8VCrT5tJYIXA0QgAAAAA=="></a>
+    <nav class="desktop-nav" aria-label="Main navigation">
+      <a href="#treatments">Treatments</a>
+      <a href="https://www.ezdentalsg.com/meet-the-team">Dentists</a>
+      <a href="#fees">Fees &amp; subsidies</a>
+      <a class="button" href="#clinics">Choose your clinic</a>
+    </nav>
+    <details class="menu">
+      <summary>Menu</summary>
+      <nav aria-label="Mobile navigation">
+        <a href="#clinics">Clinics</a>
+        <a href="#treatments">Treatments</a>
+        <a href="https://www.ezdentalsg.com/meet-the-team">Dentists</a>
+        <a href="#fees">Fees &amp; subsidies</a>
+      </nav>
+    </details>
+  </div>
+</header>
+
+<main id="main" tabindex="-1">
+  <section class="hero">
+    <div class="wrap hero-grid">
+      <div>
+        <span class="place">Bedok North · Geylang Bahru</span>
+        <h1>Neighbourhood dental care for all ages.</h1>
+        <p>From a first check-up to restoring a tooth, find dental care for you and your family at either EZ Dental Care clinic.</p>
+        <div class="actions">
+          <a class="button" href="#clinics">Choose your clinic</a>
+          <a class="button outline" href="https://www.ezdentalsg.com/treatment-rates">View treatment rates</a>
+        </div>
+      </div>
+      <figure class="clinic-photo">
+        <img width="241" height="322" fetchpriority="high" alt="The reception desk at EZ Dental Care in Geylang Bahru" src="data:image/webp;base64,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">
+        <figcaption>EZ Dental Care · Geylang Bahru</figcaption>
+      </figure>
+    </div>
+  </section>
+
+  <section class="section" id="clinics">
+    <div class="wrap">
+      <h2>Choose your clinic</h2>
+      <p class="intro">Contact your preferred branch to request a visit.</p>
+      <div class="branch-grid">
+        <article class="branch">
+          <h3>Bedok North</h3>
+          <address>539 Bedok North Street 3, #01-623<br>Singapore 460539</address>
+          <div class="actions">
+            <a class="button" href="https://api.whatsapp.com/send/?phone=%2B6591228283&amp;type=phone_number">WhatsApp Bedok</a>
+            <a class="number" href="tel:+6569045789" aria-label="Call Bedok North on +65 6904 5789">+65 6904 5789</a>
+          </div>
+          <a class="details-link" href="https://www.ezdentalsg.com/ez-dental-care-bedok-north">Bedok North clinic &amp; directions</a>
+        </article>
+        <article class="branch">
+          <h3>Geylang Bahru</h3>
+          <address>66 Kallang Bahru, #01-483<br>Singapore 330066</address>
+          <div class="actions">
+            <a class="button" href="tel:+6565310838" aria-label="Call Geylang Bahru on +65 6531 0838">Call Geylang Bahru</a>
+            <a class="number" href="tel:+6582887312" aria-label="Call Geylang Bahru mobile on +65 8288 7312">+65 8288 7312</a>
+          </div>
+          <a class="details-link" href="https://www.ezdentalsg.com/ez-dental-care-geylang-bahru">Geylang Bahru clinic &amp; directions</a>
+        </article>
+      </div>
+      <p class="hours"><strong>Both clinics</strong> · Mon–Sat, 9 am–1 pm and 2 pm–7 pm. Closed Sundays and public holidays.</p>
+    </div>
+  </section>
+
+  <section class="section care-section" id="treatments">
+    <div class="wrap">
+      <h2>Find the care you need</h2>
+      <p class="intro">Explore common reasons for a visit and read about the available treatments.</p>
+      <div class="care-grid">
+        <article class="care">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 6C8 3 4 4 4 8c0 3 2 5 2.5 9 .4 2 2 3 3 1l2-5h1l2 5c1 2 2.6 1 3-1 .5-4 2.5-6 2.5-9 0-4-4-5-8-2Z"/><path d="M18 2v5m-2.5-2.5h5"/></svg>
+          <h3>Check-ups &amp; cleaning</h3>
+          <p>Routine visits, scaling and polishing.</p>
+          <a href="https://www.ezdentalsg.com/dental-scaling-and-polishing-singapore">Scaling and polishing</a>
+        </article>
+        <article class="care">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 10c0-5 4-7 8-5 4-2 8 0 8 5 0 4-3 6-4 9-1 2-3 2-4-3-1 5-3 5-4 3-1-3-4-5-4-9Z"/><path d="m12 6-2 4 3 1-2 4"/></svg>
+          <h3>Tooth pain</h3>
+          <p>Talk to a dentist about pain or sensitivity.</p>
+          <a href="https://www.ezdentalsg.com/root-canal-treatment-singapore">Root canal treatment</a>
+          <a href="https://www.ezdentalsg.com/wisdom-tooth-extraction-singapore">Wisdom tooth extraction</a>
+        </article>
+        <article class="care">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3 14c3-4 6-4 9 0 3-4 6-4 9 0v5H3Z"/><path d="M9 11V7c0-2 1-3 3-3s3 1 3 3v4M3 16h18"/></svg>
+          <h3>Gum care</h3>
+          <p>Assessment and care for gum concerns.</p>
+          <a href="https://www.ezdentalsg.com/root-planing-singapore">Root planing</a>
+          <a href="https://www.ezdentalsg.com/soft-tissue-graft-singapore">Soft tissue graft</a>
+        </article>
+        <article class="care">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 8c0-4 3-5 7-3 4-2 7-1 7 3l-2 4H7Z"/><path d="m9 12 1 7 2 2 2-2 1-7m-6 2 6 2m-5 1 4 2"/></svg>
+          <h3>Missing teeth</h3>
+          <p>Explore options for replacing one or more teeth.</p>
+          <a href="https://www.ezdentalsg.com/dental-implants-singapore">Dental implants</a>
+          <a href="https://www.ezdentalsg.com/dentures-singapore">Dentures</a>
+        </article>
+        <article class="care">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6 6c2-3 4-2 6-1 2-1 4-2 6 1 1 2 0 5-1 7l-1 5c-.5 2-2.5 2-3-1l-1-3-1 3c-.5 3-2.5 3-3 1l-1-5C6 11 5 8 6 6Z"/><path d="M6 9h12m-7-2v4m3-4v4"/></svg>
+          <h3>Damaged teeth</h3>
+          <p>Explore ways to restore a chipped or weakened tooth.</p>
+          <a href="https://www.ezdentalsg.com/dental-filling-singapore">Dental fillings</a>
+          <a href="https://www.ezdentalsg.com/dental-crowns-and-bridges-singapore">Crowns and bridges</a>
+        </article>
+        <article class="care">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 7q8-4 16 0v8q-8 4-16 0Z"/><path d="M8 7v9m4-10v11m4-10v9M3 11q9 4 18 0"/></svg>
+          <h3>Braces &amp; whitening</h3>
+          <p>Discuss tooth alignment and whitening options.</p>
+          <a href="https://www.ezdentalsg.com/dental-braces-singapore">Dental braces</a>
+          <a href="https://www.ezdentalsg.com/teeth-whitening-singapore">Teeth whitening</a>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <section class="section fees" id="fees">
+    <div class="wrap fees-grid">
+      <div>
+        <h2>Fees &amp; subsidies</h2>
+        <p>See published treatment rates and ask your clinic about CHAS or MediSave eligibility for your visit. Coverage depends on the procedure and individual eligibility.</p>
+      </div>
+      <div class="actions">
+        <a class="button" href="https://www.ezdentalsg.com/treatment-rates">View treatment rates</a>
+        <a class="button outline" href="https://www.ezdentalsg.com/chas-dental-subsidies">CHAS information</a>
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="wrap visit-grid">
+      <div>
+        <h2>Before your visit</h2>
+        <p>Meet the team led by Dr Stewart Thum, Founder and Principal Dentist, or contact a branch to arrange an appointment.</p>
+        <div class="actions">
+          <a class="button" href="https://www.ezdentalsg.com/meet-the-team">Meet the dentists</a>
+          <a class="button outline" href="#clinics">Choose your clinic</a>
+        </div>
+      </div>
+      <div class="faq">
+        <details>
+          <summary>How do I book a visit?</summary>
+          <p>WhatsApp Bedok North or call Geylang Bahru using the <a href="#clinics">branch contacts</a>.</p>
+        </details>
+        <details>
+          <summary>Can I bring my child for a check-up?</summary>
+          <p>EZ Dental Care provides children's dental care. Contact your chosen branch to arrange a visit.</p>
+        </details>
+        <details>
+          <summary>Can I check my fees beforehand?</summary>
+          <p>See the <a href="https://www.ezdentalsg.com/treatment-rates">published treatment rates</a> and ask the clinic about the expected cost and any applicable subsidies.</p>
+        </details>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer>
+  <div class="wrap">
+    <strong>EZ Dental Care · Singapore</strong>
+    <a href="https://www.ezdentalsg.com/contact-us">Contact and directions</a>
+    <a href="mailto:ask@ezdentalsg.com">ask@ezdentalsg.com</a>
+  </div>
+</footer>
+
+<div class="mobile-bar" role="group" aria-label="Contact your preferred clinic">
+  <a class="button" href="https://api.whatsapp.com/send/?phone=%2B6591228283&amp;type=phone_number" aria-label="WhatsApp Bedok North">WhatsApp Bedok</a>
+  <a class="button outline" href="tel:+6565310838" aria-label="Call Geylang Bahru on +65 6531 0838">Call Geylang</a>
+</div>
+
+<script>
+const menu = document.querySelector('.menu');
+
+menu.querySelectorAll('a').forEach(link => {
+  link.addEventListener('click', () => {
+    if (link.hash && link.pathname === location.pathname) menu.open = false;
+  });
+});
+
+menu.addEventListener('keydown', event => {
+  if (event.key === 'Escape' && menu.open) {
+    menu.open = false;
+    menu.querySelector('summary').focus();
+  }
+});
+</script>
+</body>
+</html>
